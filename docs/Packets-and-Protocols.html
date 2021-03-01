@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How Internet Works Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body style="background-image: url('images/bgwallpaper.jpg'); background-repeat: no-repeat; background-size: cover;">
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"><!---Can change fixed top to bg-light------>
+        <div class="container">
+            <a class="navbar-brand" href="#">HIW</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto"> <!--Can be changed to mr-auto for keeping side by side---->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdownlink" href="Internet.html">About Internet</a></li>
+                            <li><a class="dropdownlink" href="Packets-and-Protocols.html">Packets and Protocol</a></li>
+                            <li><a class="dropdownlink" href="IPAddresses.html">IP Addresses</a></li>
+                            <li><a class="dropdownlink" href="Routing.html">Routing</a></li>
+			                <li><a class="dropdownlink" href="DNS.html">DNS</a></li>
+			                <li><a class="dropdownlink" href="ICANN-and-Domain-Names.html">Domain Names and ICANN</a></li>
+                            <li><a class="dropdownlink" href="HTTP-and-HTTPS-protocols.html">HTTP and HTTPS protocols</a></li>
+                            <li><a class="dropdownlink" href="W3C,HTML-and-CSS.html">W3C, HTML and CSS</a></li>
+				        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container-fluid padding">
+    <img src="images/packet.gif">
+    <div class="row padding">
+        <div class="col-lg-11">
+            <div class="body-content">
+                <h4>Packets:</h4>
+                <br>
+                <p>In networking, a packet is a small segment of a larger message. Each packet contains both data and information about that data. The information about the packet's contents is known as the "header," and it goes at the front of the packet so that the receiving machine knows what to do with the packet.</p>
+<p>When data gets sent over the Internet, it is first broken up into smaller packets, which are then translated into bits. The packets get routed to their destination by various networking devices such as routers and switches. When the packets arrive at their destination, the receiving device reassembles the packets in order and can then use or display the data.</p>
+
+                <hr>
+<p>Before we cover what the Internet is, we must define what a "network" is. A network is a group of connected computers that are able to send data to each other. A computer network is much like a social circle, which is a group of people who all know each other, regularly exchange information, and coordinate activities together.                </p>
+<p>The Internet is a vast, sprawling collection of networks that connect to each other. In fact, the word "Internet" comes from this concept: interconnected networks.</p>
+                <br>
+                <h4>Protocol:</h4>
+                <br>
+<p>Connecting two computers, both of which may use different hardware and run different software, is one of the main challenges that the creators of the Internet had to solve. It requires the use of communications techniques that are understandable by all connected computers.</p>
+<p>This problem is solved with standardized protocols. In networking, a protocol is a standardized way of doing certain actions and formatting data so that two or more devices are able to communicate with and understand each other.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+</script>
+</body>
+</html>
