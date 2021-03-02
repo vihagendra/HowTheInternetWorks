@@ -1,3 +1,6 @@
+.floatRight{float:right;margin-left:20px}
+.floatRightClear{float:right;clear:right;margin-left:20px}
+
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
